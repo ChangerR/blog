@@ -83,5 +83,6 @@ deploy:
 sitemap:
   path: sitemap.xml
 
-auto_category:
+auto_dir_categorize:
   enable: true
+  force: false
