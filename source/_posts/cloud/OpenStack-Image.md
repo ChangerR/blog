@@ -12,12 +12,11 @@ date: 2017-04-27 16:59:19
 - CloudInit 参考 https://cloudbase.it/downloads/CloudbaseInitSetup_Stable_x64.msi
 
 ### 创建qemu镜像
-``` shell
-qemu-img create  -f qcow2 win2012.qcow2 20G
-``` 
+```
+qemu-img create  -f qcow2 win2012.qcow2 20G 
 
-### 查询镜像 osinfo
-``` shell
+# 查询镜像osinfo
+
 osinfo-query os
 ```
 
