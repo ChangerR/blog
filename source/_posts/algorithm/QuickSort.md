@@ -35,13 +35,13 @@ void quickSort(int* a, int left, int right)
 int partition(int* a, int left, int right)
 {
     int n = a[(left + right) / 2];
-    while(left <= right)
+    while(left < right)
     {
         while(a[left] > n) left++;
 
         while(a[right] < n) right--;
 
-        if (left <= right)
+        if (left < right)
         {
             int temp = a[left];
             a[left] = a[right];
