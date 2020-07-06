@@ -5,4 +5,4 @@
 hexo deploy
 ```
 
-博客发布地址 https://b.changer.site/，欢迎访问^^
+博客发布地址 [https://b.changer.site/](https://b.changer.site/) ，欢迎访问^^
